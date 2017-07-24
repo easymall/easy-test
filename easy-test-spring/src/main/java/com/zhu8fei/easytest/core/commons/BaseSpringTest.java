@@ -25,16 +25,12 @@ import org.springframework.test.context.transaction.TransactionalTestExecutionLi
  */
 @RunWith(SpringRunner.class)
 @ContextConfiguration(classes = {
-
         MybatisConfig.class
-
 })
 @TestExecutionListeners(listeners = {
-
         DependencyInjectionTestExecutionListener.class,
         TransactionalTestExecutionListener.class, DirtiesContextTestExecutionListener.class,
         JunitCaseListener.class
-
 })
 @ActiveProfiles("easy-test")
 @MarkTestTarget(MarkTestTarget.class)
