@@ -1,17 +1,15 @@
 package com.zhu8fei.easytest.core.commons.mybatis.config;
 
 import com.zhu8fei.easytest.core.commons.data.DataProcessor;
-import com.zhu8fei.easytest.core.commons.data.SimpleJsonProcessorIpml;
+import com.zhu8fei.easytest.core.commons.data.SimpleJsonProcessorImpl;
 import com.zhu8fei.easytest.core.commons.exception.EasyTestException;
 import org.apache.ibatis.plugin.Interceptor;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.mybatis.spring.annotation.MapperScan;
-import org.mybatis.spring.mapper.MapperScannerConfigurer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -51,8 +49,6 @@ public class MybatisConfig implements TransactionManagementConfigurer {
         bean.setDataSource(dataSource);
         bean.setTypeAliasesPackage("com.zhu8fei.**.mybatis.model");
 
-        //添加插件
-        bean.setPlugins(new Interceptor[]{});
         try {
             return bean.getObject();
         } catch (Exception e) {
@@ -63,7 +59,7 @@ public class MybatisConfig implements TransactionManagementConfigurer {
 
     @Bean("simpleJsonProcessorIpml")
     public DataProcessor simpleJsonProcessorIpml(){
-        return new SimpleJsonProcessorIpml();
+        return new SimpleJsonProcessorImpl();
     }
 
     @Bean
@@ -76,6 +72,5 @@ public class MybatisConfig implements TransactionManagementConfigurer {
     public PlatformTransactionManager annotationDrivenTransactionManager() {
         return new DataSourceTransactionManager(dataSource);
     }
-
 
 }

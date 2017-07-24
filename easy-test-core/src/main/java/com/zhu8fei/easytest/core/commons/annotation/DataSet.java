@@ -1,5 +1,8 @@
 package com.zhu8fei.easytest.core.commons.annotation;
 
+import com.zhu8fei.easytest.core.commons.data.DataBaseMapper;
+import com.zhu8fei.easytest.core.commons.data.DataBaseMapperImpl;
+
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
@@ -48,6 +51,11 @@ public @interface DataSet {
      * 文件类型
      */
     String type() default "json";
+
+    /**
+     * 默认数据处理器
+     */
+    Class<? extends DataBaseMapper> mapper() default DataBaseMapperImpl.class;
 
     /**
      * 是否执行数据验证处理

@@ -3,7 +3,6 @@ package com.zhu8fei.easytest.core.commons.annotation;
 import com.zhu8fei.easytest.core.commons.data.DataProcessor;
 import com.zhu8fei.easytest.core.commons.exception.EasyTestException;
 import com.zhu8fei.easytest.core.commons.lang.SimpleFileReader;
-
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

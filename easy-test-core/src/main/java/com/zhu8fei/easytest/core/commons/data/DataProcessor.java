@@ -8,7 +8,7 @@ import java.lang.reflect.Method;
  * 提供测试所需的预处理数据及数据结果比对接口
  * 需要额外的数据类型及方式时,可以实现此接口
  *
- * @see SimpleJsonProcessorIpml
+ * @see SimpleJsonProcessorImpl
  * Created by zhu8fei on 2017/5/7.
  */
 public interface DataProcessor {
