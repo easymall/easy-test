@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
+ * 默认 jdbc 处理
  * Created by zhu8fei on 2017/7/24.
  */
 public class DataBaseMapperImpl implements DataBaseMapper {
