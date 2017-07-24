@@ -14,12 +14,44 @@
         <module>easy-test-spring-example</module>
     </modules>
     <packaging>pom</packaging>
+
+    <name>easy-test</name>
+    <description>
+        Easy Test is a library to junit case tools
+    </description>
+    <url>https://github.com/easymall/easy-test</url>
+
+    <developers>
+        <developer>
+            <id>zhu8fei</id>
+            <roles>
+                <role>Lead developer</role>
+            </roles>
+            <name>WangPengfei</name>
+            <url>http://blog.zhu8fei.com</url>
+            <email>mahmoud.zhu8fei@gmail.com</email>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+    <scm>
+        <url>git@github.com:easymall/easy-test.git</url>
+        <connection>scm:git:git@github.com:easymall/easy-test.git</connection>
+        <developerConnection>scm:git:git@github.com:easymall/easy-test.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
     <properties>
         <!-- 是否跳过测试 -->
         <skipTests>false</skipTests>
         <!-- jar version -->
-        <spring.version>4.3.7.RELEASE</spring.version>
-        <spring.boot.version>1.5.3.RELEASE</spring.boot.version>
+        <spring.version>4.3.9.RELEASE</spring.version>
+        <spring.boot.version>1.5.4.RELEASE</spring.boot.version>
         <aspectj.version>1.8.10</aspectj.version>
         <mybatis.version>3.4.2</mybatis.version>
         <mybatis.spring.version>1.3.1</mybatis.spring.version>
