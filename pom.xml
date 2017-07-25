@@ -78,6 +78,7 @@
         <commons-codec>1.9</commons-codec>
         <shiro.version>1.4.0</shiro.version>
         <servlet.version>3.1.0</servlet.version>
+        <jedis.version>2.9.0</jedis.version>
         <!-- plugin version -->
         <maven-compiler-plugin.version>3.6.1</maven-compiler-plugin.version>
         <maven-war-plugin.version>3.1.0</maven-war-plugin.version>
@@ -218,6 +219,11 @@
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-test</artifactId>
                 <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>redis.clients</groupId>
+                <artifactId>jedis</artifactId>
+                <version>${jedis.version}</version>
             </dependency>
             <!-- 测试 工具 依赖结束 -->
         </dependencies>
