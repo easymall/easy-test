@@ -5,7 +5,6 @@ import org.junit.runner.Description;
 import org.junit.runner.Runner;
 import org.junit.runner.notification.RunNotifier;
 import org.junit.runners.ParentRunner;
-import org.junit.runners.Suite;
 import org.junit.runners.model.InitializationError;
 import org.junit.runners.model.RunnerBuilder;
 
@@ -17,16 +16,6 @@ import java.util.List;
  * Created by WangPengfei on 2017/7/25.
  */
 public class EasySuite extends ParentRunner<Runner> {
-    /**
-     * Returns an empty suite.
-     */
-    public static Runner emptySuite() {
-        try {
-            return new EasySuite((Class<?>) null, new Class<?>[0]);
-        } catch (InitializationError e) {
-            throw new RuntimeException("This shouldn't be possible");
-        }
-    }
 
     /**
      * The <code>SuiteClasses</code> annotation specifies the classes to be run when a class
