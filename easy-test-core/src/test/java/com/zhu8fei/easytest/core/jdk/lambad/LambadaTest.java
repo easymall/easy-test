@@ -1,7 +1,7 @@
 package com.zhu8fei.easytest.core.jdk.lambad;
 
-import com.zhu8fei.easytest.core.commons.BaseJunitTest;
-import com.zhu8fei.easytest.core.commons.utils.MarkTestTarget;
+import com.zhu8fei.easytest.core.BaseJunitTest;
+import com.zhu8fei.easytest.core.utils.MarkTestTarget;
 import org.junit.Test;
 
 import java.util.Arrays;

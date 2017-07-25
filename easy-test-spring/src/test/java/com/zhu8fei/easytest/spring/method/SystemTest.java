@@ -1,8 +1,8 @@
-package com.zhu8fei.easytest.core.method;
+package com.zhu8fei.easytest.spring.method;
 
-import com.zhu8fei.easytest.core.EasyCoreTestAll;
+import com.zhu8fei.easytest.spring.EasyTestAll;
 import com.zhu8fei.easytest.core.utils.MarkTestTarget;
-import com.zhu8fei.easytest.core.system.MavenPropertyTest;
+import com.zhu8fei.easytest.spring.system.MavenPropertyTest;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
@@ -11,10 +11,8 @@ import org.junit.runners.Suite;
  */
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
-
         MavenPropertyTest.class, MavenPropertyTest.class
-
 })
-@MarkTestTarget(EasyCoreTestAll.class)
+@MarkTestTarget(EasyTestAll.class)
 public class SystemTest {
 }

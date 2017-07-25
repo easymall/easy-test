@@ -1,8 +1,8 @@
 package com.zhu8fei.easytest.core.method;
 
 import com.zhu8fei.easytest.core.EasyCoreTestAll;
-import com.zhu8fei.easytest.core.commons.annotation.DataSetAnnotationUtilsJunitTest;
-import com.zhu8fei.easytest.core.commons.utils.MarkTestTarget;
+import com.zhu8fei.easytest.core.annotation.DataSetAnnotationUtilsJunitTest;
+import com.zhu8fei.easytest.core.utils.MarkTestTarget;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 

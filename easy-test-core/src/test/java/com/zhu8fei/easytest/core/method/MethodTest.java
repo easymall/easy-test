@@ -1,8 +1,8 @@
 package com.zhu8fei.easytest.core.method;
 
 import com.zhu8fei.easytest.core.EasyCoreTestAll;
-import com.zhu8fei.easytest.core.commons.lang.SimpleFileReaderTest;
-import com.zhu8fei.easytest.core.commons.utils.MarkTestTarget;
+import com.zhu8fei.easytest.core.lang.SimpleFileReaderTest;
+import com.zhu8fei.easytest.core.utils.MarkTestTarget;
 import com.zhu8fei.easytest.core.jdk.CollectionDiffTest;
 import com.zhu8fei.easytest.core.jdk.ExtendsTransactionalSpringTest;
 import com.zhu8fei.easytest.core.jdk.MethodAndClassTest;

@@ -1,8 +1,8 @@
-package com.zhu8fei.easytest.core.system;
+package com.zhu8fei.easytest.spring.system;
 
 import com.zhu8fei.easytest.core.BaseJunitTest;
 import com.zhu8fei.easytest.core.utils.MarkTestTarget;
-import com.zhu8fei.easytest.core.method.SystemTest;
+import com.zhu8fei.easytest.spring.method.SystemTest;
 import org.junit.Assert;
 import org.junit.Test;
 
