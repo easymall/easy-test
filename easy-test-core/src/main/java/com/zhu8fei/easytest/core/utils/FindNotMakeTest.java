@@ -26,11 +26,17 @@ public class FindNotMakeTest {
             logger.warn("看到这句话,正常情况是,你手动启动了test case, 请到target/logs/findClass.log 查看结果");
             logPath = System.getProperty("user.dir") + "/target/logs/findClass.log";
         }
+        String testPackage = System.getProperty("base.test.package");
+        if (testPackage != null) {
+            PACKAGE_NAME_PREFIX = testPackage;
+        } else {
+            PACKAGE_NAME_PREFIX = "com.zhu8fei";
+        }
     }
 
     private Logger logger = LoggerFactory.getLogger(FindNotMakeTest.class);
     private static final String CLASS_NAME_PREFIX = "Test";
-    private static final String PACKAGE_NAME_PREFIX = "com.zhu8fei";
+    private static String PACKAGE_NAME_PREFIX;
 
     @Test
     public void findNotMakeTest() {

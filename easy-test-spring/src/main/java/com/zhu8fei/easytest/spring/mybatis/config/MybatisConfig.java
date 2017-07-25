@@ -24,7 +24,7 @@ import javax.sql.DataSource;
  * Created by zhu8fei on 2017/5/4.
  */
 @Profile("easy-test")
-@MapperScan("com.zhu8fei.easytest.core.commons.mybatis.mapper")
+@MapperScan("com.zhu8fei.easytest.spring.mybatis.mapper")
 @ComponentScan(basePackages = "com.zhu8fei")
 @Configuration
 public class MybatisConfig implements TransactionManagementConfigurer {
@@ -56,8 +56,8 @@ public class MybatisConfig implements TransactionManagementConfigurer {
         }
     }
 
-    @Bean("simpleJsonProcessorIpml")
-    public DataProcessor simpleJsonProcessorIpml(){
+    @Bean("simpleJsonProcessorImpl")
+    public DataProcessor simpleJsonProcessorImpl(){
         return new SimpleJsonProcessorImpl();
     }
 
