@@ -17,6 +17,6 @@ import org.junit.runner.RunWith;
 @MarkTestTarget({MarkTestTarget.class})
 public class EasyTestAll {
     static {
-        System.setProperty("base.test.package","com.zhu8fei");
+        System.setProperty("easy.test.base.package","com.zhu8fei");
     }
 }

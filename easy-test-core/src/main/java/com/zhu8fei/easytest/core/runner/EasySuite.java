@@ -93,7 +93,7 @@ public class EasySuite extends ParentRunner<Runner> {
     protected EasySuite(Class<?> klass, List<Runner> runners) throws InitializationError {
         super(klass);
         try {
-            klass.newInstance();
+            Class.forName(klass.getName());
         } catch (Exception e) {
             e.printStackTrace();
         }
