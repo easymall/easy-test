@@ -6,12 +6,10 @@
 
     <groupId>com.zhu8fei.easy-test</groupId>
     <artifactId>easy-test</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.1</version>
     <modules>
         <module>easy-test-core</module>
         <module>easy-test-spring</module>
-        <module>easy-test-core-example</module>
-        <module>easy-test-spring-example</module>
     </modules>
     <packaging>pom</packaging>
 
