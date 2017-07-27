@@ -6,7 +6,7 @@
 
     <groupId>com.zhu8fei.easy-test</groupId>
     <artifactId>easy-test</artifactId>
-    <version>0.1</version>
+    <version>0.2-SNAPSHOT</version>
     <modules>
         <module>easy-test-core</module>
         <module>easy-test-spring</module>
