@@ -1,8 +1,8 @@
 package com.zhu8fei.easytest.spring.mybatis;
 
-import com.zhu8fei.easytest.spring.BaseTransactionalSpringTest;
 import com.zhu8fei.easytest.core.annotation.DataSet;
 import com.zhu8fei.easytest.core.utils.MarkTestTarget;
+import com.zhu8fei.easytest.spring.BaseTransactionalSpringTest;
 import com.zhu8fei.easytest.spring.method.PrepareAndExpectSqlTest;
 import org.junit.Rule;
 import org.junit.Test;

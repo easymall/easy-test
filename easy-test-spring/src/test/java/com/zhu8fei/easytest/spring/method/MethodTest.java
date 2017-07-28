@@ -1,10 +1,10 @@
 package com.zhu8fei.easytest.spring.method;
 
+import com.zhu8fei.easytest.core.utils.MarkTestTarget;
 import com.zhu8fei.easytest.spring.EasyTestAll;
 import com.zhu8fei.easytest.spring.mybatis.ExpectBeanJunitTest;
 import com.zhu8fei.easytest.spring.mybatis.MybatisConfigTest;
 import com.zhu8fei.easytest.spring.mybatis.SimpleMybatisSqlProviderSpringTest;
-import com.zhu8fei.easytest.core.utils.MarkTestTarget;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 

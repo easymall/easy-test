@@ -1,13 +1,13 @@
 package com.zhu8fei.easytest.spring.mybatis;
 
 import com.alibaba.fastjson.JSON;
-import com.zhu8fei.easytest.core.bean.DataSetBean;
 import com.zhu8fei.easytest.core.BaseJunitTest;
+import com.zhu8fei.easytest.core.bean.DataSetBean;
 import com.zhu8fei.easytest.core.bean.SimpleTable;
 import com.zhu8fei.easytest.core.data.SimpleAbstractProcessor;
-import com.zhu8fei.easytest.spring.mybatis.mapper.SimpleMybatisMapper;
 import com.zhu8fei.easytest.core.utils.MarkTestTarget;
 import com.zhu8fei.easytest.spring.method.PrepareAndExpectSqlTest;
+import com.zhu8fei.easytest.spring.mybatis.mapper.SimpleMybatisMapper;
 import org.junit.Assert;
 import org.junit.Test;
 import org.mockito.Mockito;

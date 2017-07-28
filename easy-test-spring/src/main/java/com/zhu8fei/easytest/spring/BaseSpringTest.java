@@ -8,7 +8,6 @@ import org.junit.Before;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.TestExecutionListeners;
 import org.springframework.test.context.junit4.SpringRunner;
@@ -32,7 +31,6 @@ import org.springframework.test.context.transaction.TransactionalTestExecutionLi
         TransactionalTestExecutionListener.class, DirtiesContextTestExecutionListener.class,
         JunitCaseListener.class
 })
-@ActiveProfiles("easy-test")
 @MarkTestTarget(MarkTestTarget.class)
 public class BaseSpringTest {
     protected Logger logger = LoggerFactory.getLogger(getClass());

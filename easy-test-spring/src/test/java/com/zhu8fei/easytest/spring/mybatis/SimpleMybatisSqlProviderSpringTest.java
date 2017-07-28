@@ -1,10 +1,10 @@
 package com.zhu8fei.easytest.spring.mybatis;
 
-import com.zhu8fei.easytest.spring.BaseTransactionalSpringTest;
 import com.zhu8fei.easytest.core.bean.SimpleTable;
-import com.zhu8fei.easytest.spring.mybatis.mapper.SimpleMybatisSqlProvider;
 import com.zhu8fei.easytest.core.utils.MarkTestTarget;
+import com.zhu8fei.easytest.spring.BaseTransactionalSpringTest;
 import com.zhu8fei.easytest.spring.method.PrepareAndExpectSqlTest;
+import com.zhu8fei.easytest.spring.mybatis.mapper.SimpleMybatisSqlProvider;
 import org.junit.Test;
 
 import java.util.HashMap;

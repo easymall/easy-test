@@ -1,9 +1,9 @@
 package com.zhu8fei.easytest.spring.mybatis;
 
 import com.zhu8fei.easytest.core.exception.EasyTestException;
-import com.zhu8fei.easytest.spring.mybatis.config.MybatisConfig;
 import com.zhu8fei.easytest.core.utils.MarkTestTarget;
 import com.zhu8fei.easytest.spring.method.MethodTest;
+import com.zhu8fei.easytest.spring.mybatis.config.MybatisConfig;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;

@@ -17,6 +17,10 @@ import org.junit.runner.RunWith;
 @MarkTestTarget({MarkTestTarget.class})
 public class EasyTestAll {
     static {
-        System.setProperty("easy.test.base.package","com.zhu8fei");
+        System.setProperty("easy.test.base.package", "com.zhu8fei");
+        System.setProperty("easy.test.base.db.username", "root");
+        System.setProperty("easy.test.base.db.password", "");
+        System.setProperty("easy.test.base.db.driver", "com.mysql.jdbc.Driver");
+        System.setProperty("easy.test.base.db.url", "jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8&aut");
     }
 }

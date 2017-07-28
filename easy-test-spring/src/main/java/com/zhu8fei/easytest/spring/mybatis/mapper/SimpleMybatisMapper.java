@@ -1,7 +1,7 @@
 package com.zhu8fei.easytest.spring.mybatis.mapper;
 
-import com.zhu8fei.easytest.core.data.DataBaseMapper;
 import com.zhu8fei.easytest.core.bean.SimpleTable;
+import com.zhu8fei.easytest.core.data.DataBaseMapper;
 import org.apache.ibatis.annotations.InsertProvider;
 import org.apache.ibatis.annotations.SelectKey;
 import org.apache.ibatis.annotations.SelectProvider;

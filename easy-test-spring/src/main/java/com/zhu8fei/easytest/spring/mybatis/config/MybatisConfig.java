@@ -12,7 +12,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Profile;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.TransactionManagementConfigurer;
@@ -23,7 +22,6 @@ import javax.sql.DataSource;
 /**
  * Created by zhu8fei on 2017/5/4.
  */
-@Profile("easy-test")
 @MapperScan("com.zhu8fei.easytest.spring.mybatis.mapper")
 @ComponentScan(basePackages = "com.zhu8fei")
 @Configuration

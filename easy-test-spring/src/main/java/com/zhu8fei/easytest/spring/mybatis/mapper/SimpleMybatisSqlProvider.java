@@ -1,7 +1,7 @@
 package com.zhu8fei.easytest.spring.mybatis.mapper;
 
-import com.zhu8fei.easytest.core.exception.EasyTestException;
 import com.zhu8fei.easytest.core.bean.SimpleTable;
+import com.zhu8fei.easytest.core.exception.EasyTestException;
 import org.apache.ibatis.jdbc.SQL;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

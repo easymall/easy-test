@@ -2,8 +2,8 @@ package com.zhu8fei.easytest.spring.listener;
 
 import com.zhu8fei.easytest.core.annotation.DataSet;
 import com.zhu8fei.easytest.core.annotation.DataSetAnnotationUtils;
-import com.zhu8fei.easytest.core.exception.EasyTestException;
 import com.zhu8fei.easytest.core.data.DataProcessor;
+import com.zhu8fei.easytest.core.exception.EasyTestException;
 import org.junit.Assert;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
